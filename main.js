@@ -1,6 +1,6 @@
-function addition(a, ...rem) {
+function sum(a, ...rest) {
   let sum = a;
-  for (x of rem) {
+  for (x of rest) {
     sum += x;
   }
   return sum;
