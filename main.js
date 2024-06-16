@@ -1,9 +1,9 @@
-function sum(a, ...rest) {
+function addition(a, ...rem) {
   let sum = a;
-  for (x of rest) {
+  for (x of rem) {
     sum += x;
   }
-  console.log(sum);
+  return sum;
 }
 
 console.log(sum(3, 4, 5));
