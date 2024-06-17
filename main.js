@@ -6,5 +6,5 @@ function sum(a, ...rest) {
   return sum;
 }
 
-console.log(sum(3, 4, 5));
+console.log(sum(5, 23, 328, 320));
 console.log(0.5 - Math.random());
